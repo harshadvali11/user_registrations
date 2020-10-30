@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Registration page</title>
+{% endblock %}
+
+{% block body_block %}
+    <div class='container'>
+        <div class='jumbotron'>
+            <center>
+                <h1>Registration form</h1>
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{userform.as_p}}
+                    {{profileform.as_p}}
+                    <input type="submit" value="Register">
+                </form>
+
+
+
+
+            </center>
+        </div>
+    </div>
+
+{% endblock %}
