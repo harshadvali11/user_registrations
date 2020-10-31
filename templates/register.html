@@ -5,6 +5,13 @@
 {% endblock %}
 
 {% block body_block %}
+{% if reg %}
+    <div class='container'>
+        <div class='jumbotron'>
+                <h1>Registration was successfull</h1>
+        </div>
+    </div>
+{% else %}
     <div class='container'>
         <div class='jumbotron'>
             <center>
@@ -20,7 +27,9 @@
 
 
             </center>
+
         </div>
     </div>
+{% endif %}
 
 {% endblock %}

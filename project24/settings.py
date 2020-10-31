@@ -128,3 +128,10 @@ MEDIA_URL='/media/'
 
 MEDIA_ROOT=MEDIA_DIR
 
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='from@gmail.com'
+EMAIL_HOST_PASSWORD='password'
+EMAIL_PORT=465
+EMAIL_USE_SSL=True
+EMAIL_USE_TLS=False
