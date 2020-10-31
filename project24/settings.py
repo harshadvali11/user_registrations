@@ -130,8 +130,8 @@ MEDIA_ROOT=MEDIA_DIR
 
 
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='from@gmail.com'
-EMAIL_HOST_PASSWORD='password'
+EMAIL_HOST_USER='harshadvali1432@gmail.com'
+EMAIL_HOST_PASSWORD='nikky786'
 EMAIL_PORT=465
 EMAIL_USE_SSL=True
 EMAIL_USE_TLS=False
